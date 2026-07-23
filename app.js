@@ -5,6 +5,7 @@ let h3=document.querySelector("h3");
 
 
 btn.addEventListener("click",function(){
+    if(inp.value!=""){
     let items=document.createElement("li");
     items.innerText=inp.value;
 
@@ -15,6 +16,7 @@ btn.addEventListener("click",function(){
     ul.appendChild(items);
     counttask(ul.children.length+1);
     inp.value="";
+}
     
 
 });
