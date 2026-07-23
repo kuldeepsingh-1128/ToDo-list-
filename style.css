@@ -52,7 +52,8 @@ li{
 }
 .delete{
     border-radius: 10px;
-    width: 4rem;
+    width: 5rem;
+    height: 2rem;
     background-color: red;
     margin-left: 15px;
 }
